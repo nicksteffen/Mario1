@@ -22,5 +22,4 @@ public class Mario {
     System.out.println(level.toString());
   }
   }
-
 }

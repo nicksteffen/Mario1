@@ -21,11 +21,11 @@ public class Mario {
     }
     while (0 > row_length || row_length > 23);
     if (choice == 1) {
-      PrintToFile print1 = new PrintToFile(row_length);
+      PrintToFile print1 = new PrintToFile();
       print1.printOut();
     }
     else if (choice == 2) {
-      PrintToTerminal print2 = new PrintToTerminal(row_length);
+      PrintToTerminal print2 = new PrintToTerminal();
       print2.printOut();
     }
   }
